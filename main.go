@@ -222,7 +222,7 @@ func (m Main) View() string {
 func main() {
 	main := New()
 
-	wsURL := "ws://localhost:8080/ws"
+	wsURL := "ws://localhost:5173/ws"
 
 	dialer := websocket.Dialer{}
 	conn, _, err := dialer.Dial(wsURL, nil)
